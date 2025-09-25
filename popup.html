@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 320px;
+      padding: 0;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 20px;
+      background: #f8f9fa;
+      min-height: 150px;
+    }
+    .queue-info {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .position-display {
+      font-size: 36px;
+      font-weight: bold;
+      color: #667eea;
+      text-align: center;
+      margin: 15px 0;
+    }
+    .status-row {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+      color: #495057;
+      font-size: 14px;
+    }
+    .status-label {
+      font-weight: 600;
+    }
+    .no-queue {
+      text-align: center;
+      color: #6c757d;
+      padding: 30px 15px;
+    }
+    .no-queue-icon {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .last-update {
+      text-align: center;
+      color: #6c757d;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .in-store {
+      background: #00C851;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    Pokemon Center Queue
+  </div>
+  <div class="content">
+    <div id="queue-status">
+      <div class="no-queue">
+        <div class="no-queue-icon">Waiting...</div>
+        <div>Waiting for queue data...</div>
+        <div style="font-size: 12px; margin-top: 10px;">
+          Navigate to pokemoncenter.com to see your position
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
