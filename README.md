@@ -201,7 +201,7 @@ Queue position data is stored temporarily in browser local storage and is automa
 - The browser is closed
 
 ### Contact
-For any privacy concerns or questions, please open an issue on GitHub or contact [your-email]@gmail.com
+For any privacy concerns or questions, please open an issue on GitHub or contact ding.developer1@gmail.com
 
 ### Changes to Privacy Policy
 Any changes to this privacy policy will be posted on this GitHub page with an updated revision date.
