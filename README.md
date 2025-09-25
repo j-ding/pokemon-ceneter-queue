@@ -168,6 +168,46 @@ If you encounter any issues or have suggestions:
 
 ---
 
+## Privacy Policy
+
+### Data Collection
+Pokemon Center Queue Monitor does NOT collect, store, or transmit any personal data. 
+
+### What the Extension Does
+- **Reads**: Queue position data from Pokemon Center's Incapsula system
+- **Stores**: Queue position and timestamp locally in browser storage (never transmitted)
+- **Displays**: Your queue position as a badge and in the popup
+
+### What the Extension Does NOT Do
+- Does not collect personal information
+- Does not track browsing history
+- Does not send data to external servers
+- Does not store data beyond the current session
+- Does not access any account information
+- Does not use cookies or analytics
+- Does not sell or share any data
+
+### Permissions Used
+- **webRequest**: To read queue responses from Pokemon Center
+- **storage**: To temporarily store queue position locally
+- **tabs**: To check if you're on Pokemon Center website
+- **webNavigation**: To detect when you've entered the site
+- **Host permission**: To inject monitoring script on Pokemon Center pages only
+
+### Data Retention
+Queue position data is stored temporarily in browser local storage and is automatically cleared when:
+- You close the Pokemon Center tab
+- You successfully enter the store
+- The browser is closed
+
+### Contact
+For any privacy concerns or questions, please open an issue on GitHub or contact [your-email]@gmail.com
+
+### Changes to Privacy Policy
+Any changes to this privacy policy will be posted on this GitHub page with an updated revision date.
+
+Last Updated: September 2024
+
 Made with ❤️ for Pokemon collectors who are tired of checking Developer Tools
 
 **Note**: This extension is most useful during high-traffic events like special releases when the queue system is active. During normal shopping, you won't see a queue position.
